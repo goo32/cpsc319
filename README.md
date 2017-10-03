@@ -10,7 +10,7 @@ This example shows how to get the user id in the production envirnonment using a
 
 If you're using a framework such as Jersey or Spring you'll need to figure out how to do the equivalent.
 
-This is a maven project that has been set up to run in eclipse as a dynamic web application (google for setup).
+This is a maven project that has been set up to run in eclipse as a dynamic web application [Example Setup](https://wiki.base22.com/display/btg/How+to+create+a+Maven+web+app+and+deploy+to+Tomcat+-+fast).
 
 
 When running in development and/or test the web.xml should use the "DevelopmentIdentityFilter". For example:
