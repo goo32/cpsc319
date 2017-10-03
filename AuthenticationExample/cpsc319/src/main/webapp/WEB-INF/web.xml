@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:web="http://xmlns.jcp.org/xml/ns/javaee">
+  <display-name>Example</display-name>
+  <filter>
+   <filter-name>Identity Filter</filter-name>
+   <filter-class>ca.ae.cpsc319.filters.DevelopmentIdentityFilter</filter-class>
+  </filter>
+  
+  <filter-mapping>
+   <filter-name>Identity Filter</filter-name>
+   <servlet-name>ca.ae.cpsc319.ExampleServlet</servlet-name>
+  </filter-mapping>  
+</web-app>
